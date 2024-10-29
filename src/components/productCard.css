@@ -1,0 +1,28 @@
+.product-card {
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.product-price {
+  font-size: 1.2rem;
+}
+
+.product-discount {
+  font-size: 0.9rem;
+  color: #ff5722;
+}
+
+.view-details-button button {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
